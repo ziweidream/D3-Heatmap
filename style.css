@@ -1,0 +1,42 @@
+body {
+  background-color: blue;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#root {
+  margin-top: 20px;
+}
+
+.axisX path, .axisX line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+  font-size: 12px;
+}
+
+.axisY path, .axisY line {
+  fill: none;
+  stroke: none;
+  font-size: 12px;
+}
+
+.d3-tip {
+  line-height: 1;
+  padding: 10px;
+  background: #333;
+  color: white;
+  border-radius: 5px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.d3-tip:after {
+  line-height: 1;
+  box-sizing: border-box;
+  display: inline;
+  font-size: 14px;
+  width: 100%;
+  color: white;
+  position: absolute;
+  text-align: center;
+}
